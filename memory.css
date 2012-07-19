@@ -1,0 +1,25 @@
+.card{
+	width: 75px;
+	height: 75px;
+	border: 1px solid black;
+	margin: 2px;
+	padding: 0px;
+	text-align: center;
+	cursor: pointer;	
+}
+.back{
+	background-color: red;
+}
+.hoverhand{
+	cursor: pointer;
+}
+
+.header{
+	font-size: 14pt;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.intro{
+	font-style: italic;
+}

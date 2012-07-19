@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
+<title>Projects Memory Game</title>
+<link rel="stylesheet" type="text/css" href="memory.css">
+<script src="memory.js" type="text/javascript"></script>
+<script src="http://api.ravelry.com/projects/Yirggzmb/progress.json?key=fd6abad789531923951a7c16376e4e36c0fdf64d&status=in-progress+hibernating+finished+frogged&notes=true&callback=gamesetup" type="text/javascript"></script>
+</head>
+<body>
+<div id="maincontents">
+
+<p class="header">Projects Memory Game</p>
+
+<p class="intro">A matching game, drawing pictures and project names from Yirggzmb's project page.</p>
+
+<div id="formcontents">
+
+<b>Game</b><br>
+<select id="gameType">
+	<option value="0">Picture Matching
+	<option value="1">Picture to Project Name Matching
+</select>
+
+<input type="checkbox" id="finished">Only finished projects
+
+<p>
+<b>Board Width</b><br>
+<select id="gameWidth">
+	<option value="5">5
+	<option value="6">6
+	<option value="7">7
+	<option value="8">8
+	<option value="9">9
+	<option value="10">10
+</select>
+</p>
+
+<p>
+<b>Max Board Height</b><br>
+<select id="gameHeight">
+	<option value="2">2
+	<option value="4">4
+	<option value="6">6
+</select>
+</p>
+
+<p><input type="button" value="Create Game" onclick="createGame()"></p>
+
+</div>
+
+<div id="gamecontents"></div>
+
+</div>
+</body>
+</html>

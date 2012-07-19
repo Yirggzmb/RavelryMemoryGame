@@ -1,9 +1,9 @@
 RavelryMemoryGame
 =================
 
-memorygame.htm - The main html file that runs the game
-memory.js - the JavaScript file that acts as the game engine
-memory.css - the stylesheet
+    memorygame.htm - The main html file that runs the game  
+    memory.js - the JavaScript file that acts as the game engine  
+    memory.css - the stylesheet
 
 Basics - Creates a game of Memory by drawing from my Ravelry project page.  Includes options for different board sizes, game mode, and for limiting the potential cards to finished	projects only.  Play is simple - just flip two cards and hope they match.  Once you've managed to clear the board, you can then reset and play again.
 
